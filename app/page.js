@@ -1,3 +1,4 @@
+import Battery from '@/components/Battery'
 import BestFeture from '@/components/BestFeture'
 import Header from '@/components/Header'
 import HomeBanner from '@/components/HomeBanner'
@@ -11,6 +12,7 @@ export default function Home() {
     <HomeBanner/>
     <KeyFeaturs/>
     <BestFeture/>
+    <Battery/>
     </>
   )
 }
