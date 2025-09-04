@@ -6,6 +6,8 @@ import HomeBanner from '@/components/HomeBanner'
 import KeyFeaturs from '@/components/KeyFeaturs'
 import Products from '@/components/Products'
 import Specs from '@/components/Specs'
+import Testimonial from '@/components/Testimonial'
+import FaQ from '@/components/FaQ'
 import React from 'react'
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
     <Specs/>
     <DoWnload/>
     <Products/>
+    <Testimonial/>
+    <FaQ/>
     </>
   )
 }
