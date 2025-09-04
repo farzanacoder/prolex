@@ -60,7 +60,7 @@ body{
 
 .hd{
     font-size: 40px;
-    font-weight: 600;
+    font-weight: bold;
 }
 .hd{
     @apply text-gray-800
