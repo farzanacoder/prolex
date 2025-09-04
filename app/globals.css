@@ -19,3 +19,29 @@ body{
     top: -220px;
     left: 0;
 }
+
+.ele_mover{
+    -webkit-animation: mover .7s infinite alternate; 
+    animation: mover .7s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-9px);
+    }
+}
+@keyframes mover {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-9px);
+    }
+}
+.home-row3:hover img,.home-row4:hover img,.home-row5:hover img{
+    -webkit-animation: mover .7s infinite alternate;
+     animation: mover .7s infinite alternate;
+}

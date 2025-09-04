@@ -9,7 +9,7 @@ export default function HomeBanner() {
   return (
     <section className='banner w-full h-screen flex items-center justify-center'>
         <div className='container grid grid-cols-2 relative z-50'>
-            <div className='pr-10 flex flex-col gap-3 pt28'>
+            <div className='pr-10 flex flex-col gap-3 pt-28'>
                 <h1 className='text-white font-semibold text-[40px]'>Multiple <span className='text-red-600'>Sports</span> modes available</h1>
                 <p className='text-[20px] text-gray-200 leading-8'>Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!</p>
 
@@ -42,7 +42,7 @@ export default function HomeBanner() {
             </div>
 
             <div>
-                <Image src='/Watch1.png' alt='image' height={572} width={500}/>
+                <Image src='/Watch1.png' alt='image' height={572} width={500} className='ele_mover'/>
             </div>
         </div>
     </section>
