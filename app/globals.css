@@ -2,7 +2,19 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
 }
+
+@theme{
+    --color-primary: #ff5252;
+    --color-secondary: #01020c;
+    --color-light: #f1f1f1;
+}
+
+
+
+
+
 
 .container{
     margin: auto;
@@ -44,4 +56,15 @@ body{
 .home-row3:hover img,.home-row4:hover img,.home-row5:hover img{
     -webkit-animation: mover .7s infinite alternate;
      animation: mover .7s infinite alternate;
+}
+
+.hd{
+    font-size: 40px;
+    font-weight: 600;
+}
+.hd{
+    @apply text-gray-800
+}
+.hd span{
+    @apply text-primary
 }
