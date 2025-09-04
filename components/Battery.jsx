@@ -7,7 +7,7 @@ export default function Battery() {
         <div className='container'>
             <h2 className='hd text-center'>Up to <span>10 Days</span> of Battery Life</h2>
             <p className='text-gray-600 text-center text-xl my-3'>35-hour GPS continuous running mode</p>
-            <Image src='/Watch3.png' alt='img' width={1000} height={500}/>
+            <Image src='/Watch3.png' alt='img' className='ele_mover' width={1000} height={500}/>
 
             <div className='grid grid-cols-2 text-center gap-10'>
                 <div className='col px-20'>

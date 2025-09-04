@@ -14,7 +14,7 @@ export default function Specs() {
   return (
     <section className='bg-gray-100 py-20'>
         <div className='container flex items-center gap-10'>
-            <div className='w-[35%]'>
+            <div className='w-[35%] ele_mover'>
                 <Image src='/Watch2.png' width={400} height={500}/>
             </div>
 

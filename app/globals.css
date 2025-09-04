@@ -69,6 +69,11 @@ body{
     @apply text-primary
 }
 
+.donload .container{
+    position: relative; 
+    z-index: 11;
+
+}
 .donload{
     height: 100vh;
     width: 100%;

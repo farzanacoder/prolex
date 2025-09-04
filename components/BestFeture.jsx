@@ -26,7 +26,7 @@ export default function BestFeture() {
                     <BestItem icon={<PiBellRingingBold size={28} className="text-primary" />} text='Alarm Alert' subtext='Modular and interchangable componente between layouts and even demos.'/>
                 </div>
 
-                 <div className='flex flex-col text-center'>
+                 <div className='flex flex-col text-center ele_mover'>
                     <Image src='/Watch2.png' alt='img' width={400} height={300}/>
                  </div>
 
