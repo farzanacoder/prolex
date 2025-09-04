@@ -22,7 +22,7 @@ export default function DoWnload() {
             </div>
 
             <div className='col pl-20 ele_mover'>
-                <Image src='/img1.png' height={400} width={500}/>
+                <Image src='/img1.png' height={400} width={500} alt='image'/>
             </div>
         </div>
 
