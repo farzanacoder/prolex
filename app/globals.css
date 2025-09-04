@@ -68,3 +68,23 @@ body{
 .hd span{
     @apply text-primary
 }
+
+.donload{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background: url('/img.jpg') no-repeat top center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.donload::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+
+}
