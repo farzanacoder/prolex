@@ -11,6 +11,7 @@ import FaQ from '@/components/FaQ'
 import React from 'react'
 import Contact from '@/components/Contact'
 import NewsLetter from '@/components/NewsLetter'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
     <FaQ/>
     <Contact/>
     <NewsLetter/>
+    <Footer/>
     </>
   )
 }
