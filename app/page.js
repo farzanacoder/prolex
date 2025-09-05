@@ -9,6 +9,7 @@ import Specs from '@/components/Specs'
 import Testimonial from '@/components/Testimonial'
 import FaQ from '@/components/FaQ'
 import React from 'react'
+import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
     <Products/>
     <Testimonial/>
     <FaQ/>
+    <Contact/>
     </>
   )
 }

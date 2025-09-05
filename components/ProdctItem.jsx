@@ -15,7 +15,7 @@ export default function ProdctItem({img , title , oldprice , price}) {
         </div>
 
         <div className='flex justify-center mt-3'>
-            <Button className='items-center gap-1 !bg-primary !text-white !rounded-full !capitalize !px-5 !hover:bg-secondary'>
+            <Button className='items-center gap-1 !bg-primary !text-white !rounded-full !capitalize !px-5 hover:!bg-secondary'>
                 <IoCartOutline size={20}/> Buy Now
             </Button>
         </div>
