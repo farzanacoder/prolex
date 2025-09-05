@@ -124,3 +124,15 @@ body{
     @apply !bg-primary
 
 }
+
+.slot-counter-item-number{
+    @apply !text-primary
+}
+.slot-counter-item-number{
+    font-size: 50px !important;
+    text-align: center;
+    font-weight: bold;
+}
+.slot-counter{
+    margin: auto;
+}

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { BsEmojiSmile } from "react-icons/bs";
-import { FaDownload } from "react-icons/fa";
+import { HiMiniArrowDownTray } from "react-icons/hi2";
 import { GoTrophy } from "react-icons/go";
 import { LiaAwardSolid } from "react-icons/lia";
 import { RiDoubleQuotesL } from "react-icons/ri";
@@ -10,6 +10,11 @@ import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/navigation';
+import SlotCounter from 'react-slot-counter';
+
+
+
+
 
 export default function Testimonial() {
   return (
@@ -112,22 +117,22 @@ export default function Testimonial() {
         <div className="grid grid-cols-2 gap-20">
             <div className="col flex flex-col justify-center">
                 <BsEmojiSmile size={50} className="!text-white m-auto"/>
-                <span className="font-bold text-center text-5xl py-3 text-primary">2350</span>
+                <SlotCounter  value={2350} />
                 <span className="!text-white text-lg m-auto">Happy Client</span>
             </div>
             <div className="col flex flex-col justify-center">
-                <FaDownload size={50} className="!text-white m-auto"/>
-                <span className="font-bold text-center text-5xl py-3 text-primary">2150</span>
+                <HiMiniArrowDownTray size={50} className="!text-white m-auto"/>
+                <SlotCounter  value={2150} />
                 <span className="!text-white text-lg m-auto">App Download</span>
             </div>
             <div className="col flex flex-col justify-center">
                 <LiaAwardSolid size={50} className="!text-white m-auto"/>
-                <span className="font-bold text-center text-5xl py-3 text-primary">2170</span>
+                <SlotCounter   value={2170} />
                 <span className="!text-white text-lg m-auto">Clients satisfaction</span>
             </div>
             <div className="col flex flex-col justify-center">
                 <GoTrophy size={50} className="!text-white m-auto"/>
-                <span className="font-bold text-center text-5xl py-3 text-primary">2250</span>
+                <SlotCounter value={2050} />
                 <span className="!text-white text-lg m-auto">Awards wint</span>  
             </div>
             </div>
