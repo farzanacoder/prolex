@@ -136,3 +136,14 @@ body{
 .slot-counter{
     margin: auto;
 }
+
+.MuiAccordion-heading button{
+    @apply !bg-secondary
+}
+.MuiAccordion-gutters {
+    margin: 10px 0 !important;
+}
+.MuiAccordionSummary-expandIconWrapper svg {
+    color: #f1f1f1 !important;
+}
+
