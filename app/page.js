@@ -10,6 +10,7 @@ import Testimonial from '@/components/Testimonial'
 import FaQ from '@/components/FaQ'
 import React from 'react'
 import Contact from '@/components/Contact'
+import NewsLetter from '@/components/NewsLetter'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
     <Testimonial/>
     <FaQ/>
     <Contact/>
+    <NewsLetter/>
     </>
   )
 }
