@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <section className='bg-gray-100 py-20'>
+    <section className='bg-gray-100 py-20'  id='contact'>
         <div className="container flex gap-10">
             <div className=' w-[40%]'>
                 <h2 className='text-2xl font-semibold text-gray-700 mb-2'>Contact with us</h2>

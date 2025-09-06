@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 export default function Products() {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-20" id="product">
       <div className="container">
         <h2 className="hd text-center mb-2">
           We have <span className="text-primary">quality</span> products

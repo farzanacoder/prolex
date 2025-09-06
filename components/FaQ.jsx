@@ -20,7 +20,7 @@ export default function FaQ() {
 
 
   return (
-    <section className="bg-white py-24">
+    <section className="bg-white py-24" id="faq">
       <div className="container">
         <div className="grid grid-cols-2 gap-24">
           <div className="faq">

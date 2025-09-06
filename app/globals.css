@@ -2,7 +2,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
 @theme{
@@ -10,6 +10,19 @@ body{
     --color-secondary: #01020c;
     --color-light: #f1f1f1;
 }
+
+
+:root{
+    --nav-h: 10px;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--nav-h);
+}
+#home , #features ,  #specs ,  #product ,  #faq , #contact   {
+    scroll-margin-top: var(--nav-h);
+}
+
 
 
 
