@@ -1,3 +1,7 @@
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import Image from 'next/image'
 import React from 'react'
 import { CiCamera } from "react-icons/ci";
@@ -11,10 +15,17 @@ import SpecItem from './SpecItem';
 
 
 export default function Specs() {
+      useEffect(() => {
+    AOS.init({
+      duration: 1000,  
+    });
+  }, []);
+
+
   return (
     <section className='bg-gray-100 py-20' id='specs'>
         <div className='container flex items-center gap-10'>
-            <div className='w-[35%] ele_mover'>
+            <div className='w-[35%] ele_mover' data-aos="fade-down">
                 <Image src='/Watch2.png' width={400} height={500} alt='spec'/>
             </div>
 

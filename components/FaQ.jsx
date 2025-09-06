@@ -8,8 +8,19 @@ import Typography from "@mui/material/Typography";
 import { FaAngleDown } from "react-icons/fa6";
 import Button from "@mui/material/Button";
 import Image from "next/image";
+import { useEffect } from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 export default function FaQ() {
+    useEffect(() => {
+    AOS.init({
+      duration: 1000,  
+      offset: 50     
+    });
+  }, []);
+
+
   const [expanded, setExpanded] = useState('panel1');
 
   const handleChange =
@@ -89,7 +100,7 @@ export default function FaQ() {
             </Accordion>
           </div>
 
-          <div className="img px-10">
+          <div className="img px-10" data-aos="fade-left">
             <Image src='/img6.png' alt="img" width={400} height={500} className="ele_mover"/>
           </div>
         </div>

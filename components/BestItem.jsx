@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function BestItem({icon , text , subtext}) {
+export default function BestItem({icon , text , subtext , delay}) {
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4"  data-aos="fade-up" data-aos-delay={delay}>
       <div className="">
         <span className="flex items-center justify-center h-16 w-16 rounded-full shadow-md bg-white">
             {icon}

@@ -11,15 +11,25 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import SlotCounter from 'react-slot-counter';
-
+import { useEffect } from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 
 
 
 export default function Testimonial() {
+    useEffect(() => {
+    AOS.init({
+      duration: 1000,  
+      offset: 50     
+    });
+  }, []);
+
+
   return (
     <section className="grid grid-cols-2">
-      <div className="bg-gray-100 px-16 py-20">
+      <div className="bg-gray-100 px-16 py-20" data-aos="fade-right">
         <h2 className="hd text-center">
           Our lovely <span>Customers</span> say
         </h2>

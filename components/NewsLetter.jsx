@@ -1,9 +1,21 @@
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import { Button } from '@mui/material'
 import React from 'react'
 
 export default function NewsLetter() {
+    useEffect(() => {
+    AOS.init({
+      duration: 1000,  
+      offset: 50     
+    });
+  }, []);
+
+
   return (
-    <section className='bg-white py-20'>
+    <section className='bg-white py-20' data-aos="fade-up">
         <div className="container">
         <h2 className='hd text-center'>Get Free Offer <span className='text-primary'> Subscribe</span> now</h2>
        <p className='text-center w-[75%] m-auto text-lg leading-8 mt-3 text-gray-600'>
