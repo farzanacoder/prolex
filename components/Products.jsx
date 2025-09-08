@@ -9,12 +9,12 @@ import "swiper/css/pagination";
 
 export default function Products() {
   return (
-    <section className="bg-white py-20" id="product">
+    <section className="bg-white py-6 lg:py-20" id="product">
       <div className="container">
         <h2 className="hd text-center mb-2">
           We have <span className="text-primary">quality</span> products
         </h2>
-        <p className="text-center text-xl text-gray-600 w-[75%] m-auto pb-10">
+        <p className="text-center text-xl text-gray-600 w-full lg:w-[75%] m-auto pb-10">
           Credibly synthesize multimedia based networks vis-a-vis top-line
           growth strategies. Continually leverage existing worldwide interfaces
         </p>
@@ -26,6 +26,25 @@ export default function Products() {
           pagination={{
             clickable: true,
           }}
+
+           breakpoints= {{
+        250: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        330: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        550: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        1100: {
+          slidesPerView: 6,
+          spaceBetween: 10,
+        },
+      }}
           modules={[FreeMode, Pagination]}
           className="mySwiper"
         >

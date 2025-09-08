@@ -25,8 +25,8 @@ export default function HomeBanner() {
 
   return (
     <section className="banner w-full h-screen flex items-center justify-center">
-      <div className="container grid grid-cols-2 relative z-50">
-        <div className="pr-10 flex flex-col gap-3 pt-28" data-aos="fade-right">
+      <div className="container md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 flex flex-col  relative z-50">
+        <div className="pr-10 info flex flex-col gap-3 pt-28" data-aos="fade-right">
           <h1 className="text-white font-semibold text-[40px]">
             Multiple <span className="text-primary">Sports</span> modes
             available
@@ -45,7 +45,7 @@ export default function HomeBanner() {
                 />
               </span>
 
-              <span className="text-gray-200 text-[14px]">
+              <span className="text-gray-200 text-[14px] text-center ">
                 App notifications
               </span>
             </div>
@@ -57,7 +57,7 @@ export default function HomeBanner() {
                 />
               </span>
 
-              <span className="text-gray-200 text-[14px]">Alarms Clock</span>
+              <span className="text-gray-200 text-[14px] text-center">Alarms Clock</span>
             </div>
             <div className="flex flex-col gap-2">
               <span className="rounded-full bg-white mb-2 h-14 w-14 flex items-center justify-center m-auto group hover:bg-primary">
@@ -67,14 +67,14 @@ export default function HomeBanner() {
                 />
               </span>
 
-              <span className="text-gray-200 text-[14px]">
+              <span className="text-gray-200 text-[14px] text-center">
                 Location tracker
               </span>
             </div>
           </div>
         </div>
 
-        <div data-aos="fade-left">
+        <div data-aos="fade-left" className="imgbox">
           <Swiper
             modules={[Autoplay, EffectFade]}
             effect="fade"

@@ -3,9 +3,9 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <section className='bg-gray-100 py-20'  id='contact'>
-        <div className="container flex gap-10">
-            <div className=' w-[40%]'>
+    <section className='bg-gray-100 py-6 lg:py-20'  id='contact'>
+        <div className="container flex-col lg:flex-row flex gap-10">
+            <div className='w-full lg:w-[40%]'>
                 <h2 className='text-2xl font-semibold text-gray-700 mb-2'>Contact with us</h2>
                 <p className='text-gray-500 text-base leading-7'>It is very easy to get in touch with us. Just use the contact form or pay us a visit for a coffee at the office. Dynamically innovate competitive technology after an expanded array of leadership.</p> <br />
                 <span className='text-gray-600 text-base leading-7 font-semibold'>Head Office</span>
@@ -15,7 +15,7 @@ export default function Contact() {
           
             </div>
 
-            <form action="" className='w-[60%]'>
+            <form action="" className='lg:w-[60%] w-full'>
             <h2 className='text-2xl font-semibold text-gray-700 mb-2'>Reach us quickly</h2>
           <div className="grid grid-cols-2 gap-5 my-3">
             <input type="text" placeholder='Enter Name' className='h-12 w-full bg-white outline-none border border-[rgba(0,0,0,0.1)] px-3 focus:border-[rgba(0,0,0,0.3)] transition-all' />

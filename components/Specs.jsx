@@ -25,12 +25,12 @@ export default function Specs() {
   return (
     <section className='bg-gray-100 py-20' id='specs'>
         <div className='container flex items-center gap-10'>
-            <div className='w-[35%] ele_mover' data-aos="fade-down">
+            <div className='w-[35%] hidden lg:block ele_mover' data-aos="fade-down">
                 <Image src='/Watch2.png' width={400} height={500} alt='spec'/>
             </div>
 
 
-            <div className='w-[65%]'>
+            <div className='w-full lg:w-[65%]'>
                 <h2 className='hd'><span>Technical </span>Specs</h2>
                 <p className=' text-xl my-2 text-gray-600'>Objectively deliver professional value with diverse web-readiness. Collaboratively transition wireless customer service without goal-oriented.</p>
 
@@ -43,7 +43,6 @@ export default function Specs() {
                 <SpecItem icon={<GoDeviceCameraVideo className="text-primary" size={35} />} text='Advance Video' subtext='Interactively negotiate synergistic innovation before global materials sustainable'/>
                 <SpecItem icon={<MdOutlineWifi className="text-primary" size={35} />} text='Wifi Enable' subtext='Continually engineer extensible deliverables rather than efficient potentialities.'/>
             </div>
-
         </div>
         </div>
     </section>

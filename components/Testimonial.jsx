@@ -28,8 +28,8 @@ export default function Testimonial() {
 
 
   return (
-    <section className="grid grid-cols-2">
-      <div className="bg-gray-100 px-16 py-20" data-aos="fade-right">
+    <section className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="bg-gray-100 p-5 lg:px-16 lg:py-20" data-aos="fade-right">
         <h2 className="hd text-center">
           Our lovely <span>Customers</span> say
         </h2>
@@ -123,7 +123,7 @@ export default function Testimonial() {
         </Swiper>
       </div>
 
-      <div className="counter p-32">
+      <div className="counter p-5 lg:p-32">
         <div className="grid grid-cols-2 gap-20">
             <div className="col flex flex-col justify-center">
                 <BsEmojiSmile size={50} className="!text-white m-auto"/>

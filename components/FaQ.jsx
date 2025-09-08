@@ -31,9 +31,9 @@ export default function FaQ() {
 
 
   return (
-    <section className="bg-white py-24" id="faq">
+    <section className="bg-white py-6 lg:py-24" id="faq">
       <div className="container">
-        <div className="grid grid-cols-2 gap-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
           <div className="faq">
             <h2 className="hd !text-[36px]">
               Frequently asked <span>Questions</span>

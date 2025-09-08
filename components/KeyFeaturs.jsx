@@ -21,9 +21,9 @@ export default function KeyFeaturs() {
 
 
   return (
-    <section className='bg-light w-full py-20'>
-        <div className='container flex items-center justify-between'>
-            <div className='pr-[150px] w-[70%]' data-aos="fade-up">
+    <section className='bg-light w-full py-40 pb-20 lg:py-20'>
+        <div className='container lg:flex-row md:flex-row flex-col flex items-center justify-between'>
+            <div className='lg:pr-[150px]  w-full lg:w-[70%]' data-aos="fade-up">
                  <p className='bg-primary text-white text-[14px] py-1 px-2 inline-block rounded-full '>Key features</p>
             <p className='text-gray-600 text-[20px] mt-4 '>We will helps you to build beautiful websites that stand out and automatically adapt to your style.</p>
 
@@ -35,7 +35,7 @@ export default function KeyFeaturs() {
             </div>
             </div>
 
-            <div className='w-[30%]' data-aos="fade-left">
+            <div className='w-full mt-6 lg:mt-0 lg:w-[30%]' data-aos="fade-left">
                 <div className='bg-primary px-10 py-64 h-96 w-full rounded-md shadow-lg gap-7 flex flex-col justify-center'>
                     <p className='text-gray-100 text-xl text-center'>Do not be afraid to click. Maybe we offer discount on your first project</p>
                     <h2 className='text-white font-bold text-[100px] text-center'>20%</h2>

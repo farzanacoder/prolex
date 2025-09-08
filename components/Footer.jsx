@@ -13,7 +13,7 @@ export default function Footer() {
    <>
     <section className='py-10 bg-secondary'>
         <div className="container">
-            <div className="grid grid-cols-3 gap-32">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-32">
                 <div className='col1'>
                     <Image src='/logo.jpg' alt='image' width={160} height={100}/>
 
